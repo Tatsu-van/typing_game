@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  width: 100vw;
+  height: 100px;
+  background-color: #5bc0de;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  padding: 0 20%;
+  height: calc(100vh - 100px);
+
+  .main-text, .result {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+  }
+  .main-text {
+    top: 40%;
+  }
+
+  .result {
+    top: 60%;
+  }
+
+  .game-text {
+    font-size: 100px;
+    letter-spacing: 10px;
+  }
+}
